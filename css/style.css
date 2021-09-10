@@ -1,7 +1,18 @@
+.sticky{
+  position: sticky;
+  top:0;
+  z-index:100;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  background-image: url("asdf.jpg");
+}
 html {
 
 }
 body {
+  color:white;
   background-image: url("5-dots.png");
   background-repeat: repeat;
   background-color: grey;
@@ -14,12 +25,19 @@ h1{
 img{
   padding:0;
   margin:0;
+  display:block;
+  vertical-align: bottom;
 }
 a{
   color: yellow;
   text-decoration: none;
 }
+h3{
+  font-family: sans-serif;
+}
 table, th, td {
+  padding: 5px;
+  margin: 0px;
   left: auto;
   right: auto;
   border: 1px solid white;
@@ -27,18 +45,17 @@ table, th, td {
 }
 .blocky {
   display:block;
-  padding:5px;
 }
-.sticky{
-  position: sticky;
-  top:0;
-  z-index:100;
+.padless{
+  padding:0px;
 }
-.redborder {
-  border: 2px outset red;
+.paddy{
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.header {
-  text-align: center;
-  width: 100%;
-  background-color: black;
+.fullwide{
+  width:100%;
+}
+.borderless{
+  border: 0px;
 }
