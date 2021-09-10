@@ -1,18 +1,20 @@
 html {
   background-color: grey;
 }
-
+body {
+  color: white;
+}
 h1{
   font-family: sans-serif;
-  color: Black;
+  color: white;
 }
-
-table{
-
+.firstdiv {
+  padding: 10px;
+  background-color: black;
 }
-
 table, th, td {
-  border: 1px solid black;
+  left: auto;
+  right: auto;
+  border: 1px solid white;
   border-collapse: collapse;
-
 }
