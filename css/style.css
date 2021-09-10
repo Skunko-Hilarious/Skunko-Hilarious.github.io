@@ -8,8 +8,20 @@ h1{
   font-family: sans-serif;
   color: white;
 }
-.firstdiv {
+a{
+  color: yellow;
+  text-decoration: none;
+
+}
+.headertd {
+  width: 50%;
+}
+.header {
+  text-align: center;
+  margin: auto;
+  width: 50%;
   padding: 10px;
+  border: 2px outset red;
   background-color: black;
 }
 table, th, td {
