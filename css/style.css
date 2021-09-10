@@ -1,11 +1,18 @@
-h1{
-      font-family: serif;
-      font-color: red;
+html {
+  background-color: grey;
 }
-table {
-      padding: 10px;
-      margin-left: auto;
-      margin-right: auto;
-      border-collapse: collapse;
-      border-width: 1px solid black;
+
+h1{
+  font-family: sans-serif;
+  color: Black;
+}
+
+table{
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
 }
