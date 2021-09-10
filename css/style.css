@@ -11,16 +11,19 @@ h1{
 a{
   color: yellow;
   text-decoration: none;
-
+}
+.blocky {
+  display:block;
+  padding:5px;
 }
 .headertd {
-  width: 50%;
+  width: 33%;
+  border: 2px outset red;
 }
 .header {
   text-align: center;
   margin: auto;
   width: 50%;
-  padding: 10px;
   border: 2px outset red;
   background-color: black;
 }
