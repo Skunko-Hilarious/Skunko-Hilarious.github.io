@@ -1,35 +1,44 @@
 html {
-  background-color: grey;
+
 }
 body {
-  color: white;
+  background-image: url("5-dots.png");
+  background-repeat: repeat;
+  background-color: grey;
+  margin:0;
 }
 h1{
   font-family: sans-serif;
   color: white;
 }
+img{
+  padding:0;
+  margin:0;
+}
 a{
   color: yellow;
   text-decoration: none;
-}
-.blocky {
-  display:block;
-  padding:5px;
-}
-.headertd {
-  width: 33%;
-  border: 2px outset red;
-}
-.header {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  border: 2px outset red;
-  background-color: black;
 }
 table, th, td {
   left: auto;
   right: auto;
   border: 1px solid white;
   border-collapse: collapse;
+}
+.blocky {
+  display:block;
+  padding:5px;
+}
+.sticky{
+  position: sticky;
+  top:0;
+  z-index:100;
+}
+.redborder {
+  border: 2px outset red;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  background-color: black;
 }
