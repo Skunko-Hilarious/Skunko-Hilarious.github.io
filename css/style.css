@@ -25,6 +25,9 @@ h1{
   padding: 30px;
   text-shadow: 3px 3px 5px purple;
 }
+h4{
+  padding: 20px;
+}
 p{
   padding: 10px;
   font-family: "Comic Sans MF", "Comic Sans", cursive;
