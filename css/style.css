@@ -9,27 +9,31 @@
   background-image: url("asdf.jpg");
   border-bottom: 4px outset gray;
 }
-html {
-
-}
 body {
   color:white;
   background-image: url("5-dots.png");
   background-repeat: repeat;
   background-color: grey;
   margin:0;
+  font-family: sans-serif;
 }
 h1{
   font-family: sans-serif;
   color: white;
   padding: 30px;
+  text-align: center;
   text-shadow: 3px 3px 5px purple;
+  background-image: url("velvet.jpg");
+  background-repeat: repeat;
+  background-color: rgb(61, 12, 19);
 }
 h4{
   padding: 20px;
 }
 p{
-  padding: 10px;
+  padding-left: 2%;
+  padding-right: 20%;
+  padding-bottom: 10px;
   font-family: "Comic Sans MF", "Comic Sans", cursive;
   text-shadow: 3px 3px 5px purple;
 }
@@ -37,7 +41,6 @@ img{
   padding:0;
   margin:0;
   display:block;
-  vertical-align: bottom;
 }
 a{
   color: yellow;
@@ -71,4 +74,10 @@ table, th, td {
 }
 .borderless{
   border: 0px;
+}
+.emojiepoint{
+  list-style-type: "\1F393";
+}
+.center{
+  text-align: center;
 }
