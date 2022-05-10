@@ -1,14 +1,10 @@
-.sticky{
-  position: sticky;
-  top:0;
-  z-index:100;
+@keyframes boom{
+  0%{transform:scale(1);opacity: 0%;filter:grayscale(100%);filter: blur(100%);}
+  15%{transform:scale(5);opacity: 100%;filter:grayscale(0%);filter: blur(0%);}
+  100%{transform:scale(1);opacity: 0%;filter:grayscale(100%);filter: blur(100%);}
 }
-.header {
-  text-align: center;
-  width: 100%;
-  background-image: url("asdf.jpg");
-  border-bottom: 4px outset gray;
-}
+
+
 body {
   color:white;
   background-image: url("5-dots.png");
@@ -16,6 +12,10 @@ body {
   background-color: grey;
   margin:0;
   font-family: sans-serif;
+}
+html{
+  background-image: url("5-dots.png");
+  background-repeat: repeat;
 }
 h1{
   font-family: sans-serif;
@@ -80,4 +80,31 @@ table, th, td {
 }
 .center{
   text-align: center;
+}
+.sticky{
+  position: sticky;
+  top:0;
+  z-index:100;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  background-image: url("asdf.jpg");
+  border-bottom: 4px outset gray;
+}
+
+.boom{
+  width: 100px;
+  height: 100px;
+  border: 6px solid hsl(0, 0%, 0%);
+  border-radius: 40%;
+  opacity: 0%;
+  filter:grayscale(100%);
+  filter: blur(100%);
+  animation-name: boom;
+  animation-delay: 2s;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 15%;
 }
