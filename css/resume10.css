@@ -1,0 +1,77 @@
+a{
+    text-decoration: none;
+    color:crimson;
+}
+body{
+    background-color: gray;
+}
+#navbar{
+    background-color: #353535;
+}
+.background-image{
+    background-color: #4B4453;
+    background-image: url("../resume-10-images/5dots.png");
+    background-repeat: repeat;
+}
+.carousel-image{
+    height:300px;
+    margin:auto;
+}
+.modal-backdrop {
+    background-color: red;
+}
+@media only screen and (max-width: 470px) {
+    .carimage{
+        height:150px;
+    }
+}
+
+
+/*The individual contact buttons*/
+.contact{
+    display:inline-block;
+    width: 80px;
+    height:80px;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+/*Modifying the text container that is next to the icon within the contact buttons*/
+.contact span {
+    font-size: 0px;
+    height: 60px;
+    margin-left: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+/*Modifies the actual icon within the contact button, such as github icon or facebook icon*/
+.contact .icon i {
+    font-size: 50px;
+    transition: all 0.3s ease-out;
+}
+/*When the mouse hovers over a contact button, it gets modified*/
+.contact:hover {
+    width: 200px;
+    background-color: black;
+    color:white;
+    transition: all 0.3s ease-out;
+}
+/*Modifying the text container (span) in the contact buttons when the mouse is hovering over it*/
+.contact:hover span {
+    font-size: 20px;
+    height: 60px;
+    margin-left: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+/*Changes the color of the icons when the mouse hovers over them*/
+.contact:nth-child(1):hover i{
+    color:#1877f2;
+}
+.contact:nth-child(2):hover i{
+    color: #171515;
+}
+.contact:nth-child(3):hover i{
+    color: #c32aa3;
+}
